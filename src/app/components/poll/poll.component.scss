@@ -1,0 +1,16 @@
+section {
+  mat-form-field {
+    width: 100%;
+  }
+  article {
+    width: 100%;
+    height: 490px;
+    overflow: auto;
+    table {
+      width: 100%;
+      .row {
+        cursor: default;
+      }
+    }
+  }
+}

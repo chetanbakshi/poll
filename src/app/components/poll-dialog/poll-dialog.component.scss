@@ -1,0 +1,13 @@
+mat-dialog-content {
+  display: block;
+  .title {
+    font-size: 2rem;
+  }
+  .url {
+    font-size: 1.2rem;
+    a {
+      color: cadetblue;
+      text-decoration: none;
+    }
+  }
+}
