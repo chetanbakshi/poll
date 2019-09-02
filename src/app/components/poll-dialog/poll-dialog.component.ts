@@ -18,10 +18,14 @@ export class PollDialogComponent implements OnInit {
 
 
 
-  constructor(public dialog: MatDialog, @Inject(MAT_DIALOG_DATA) public data: PollModel) { }
+  constructor(public dialogRef: MatDialogRef<PollDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: PollModel) { }
 
   ngOnInit() {
     console.log(this.data)
+  }
+
+  clickHandler() {
+    this.dialogRef.close();
   }
 
 
